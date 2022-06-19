@@ -1,5 +1,5 @@
 import { Component } from "@angular/core";
-import { SearchService } from "../../services/search.service";
+//import { SearchService } from "../../services/search.service";
 
 @Component({
     templateUrl:'./search.component.html',
@@ -9,10 +9,10 @@ import { SearchService } from "../../services/search.service";
 export class SearchComponent {
     searchKey:string=""
 
-    constructor(public searchService:SearchService) {
+    // constructor(public searchService:SearchService) {
             
-    }
-    onSearch(){
-        this.searchService.search(this.searchKey);
-    }
+    // }
+    // onSearch(){
+    //     this.searchService.search(this.searchKey);
+    // }
 }
